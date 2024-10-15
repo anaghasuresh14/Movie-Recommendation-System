@@ -1,5 +1,5 @@
 
-Movie Recommender System:
+Movie Recommendation System:
 
 This is a movie recommender system that seeks to provide recommendations to users based on the similarity between the contents of the movies i.e by content based filtering.
 
