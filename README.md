@@ -14,5 +14,8 @@ Types of Recommender Systems:
 3. Collaborative Filtering Based:
    These recommend items based on user behavior and preferences.
    They find patterns and similarities between users.
-   For instance, if User A and User B have similar movie-watching habits, User A’s preferences can be used to recommend movies 
-   to User B.
+   For instance, if User A and User B have similar movie-watching habits, User A’s preferences can be used to recommend 
+   movies to User B.
+
+
+Vectorization involves calculating the similarity between movie tags by converting them into vectors. Each movie, identified by its ID, name, and tags, is represented as a vector in a 5000-dimensional space. This is achieved through a "Bag of Words" model where all tags are concatenated, and the 5000 most common words, based on frequency, are selected. These words are then compared with each movie's tags. Each movie thus becomes a vector of dimensions corresponding to these common words. Stop words are not considered in this process, ensuring more meaningful comparisons.
