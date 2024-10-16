@@ -1,3 +1,5 @@
+#Streamlit Application
+
 import streamlit as st
 import pickle
 import pandas as pd
@@ -19,7 +21,7 @@ movies = pd.DataFrame(movies_dict)
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 # Display an image on the Streamlit app
-st.image('C:/Users/anu/Desktop/MS/PROJECTS/moviepic.png', width=100)
+st.image('moviepic.png', width=100)
 
 # Title of the Streamlit app
 st.title('Movie Recommendation System')
